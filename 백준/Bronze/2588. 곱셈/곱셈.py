@@ -1,0 +1,7 @@
+number1 = int(input())
+number2 = int(input())
+number2 = str(number2)
+print(f'{(number1 * int(number2[2]))}')
+print(f'{(number1 * int(number2[1]))}')
+print(f'{(number1 * int(number2[0]))}')
+print(f'{(number1 * int(number2))}')
